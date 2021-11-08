@@ -8,4 +8,5 @@ def moneyMonitor():
 
 def computation(money, price):
     maximumNumberOfApples = int(money/price)
+    remainingMoney = float(money%price)
     
