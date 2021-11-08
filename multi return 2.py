@@ -8,3 +8,7 @@ def computeFruitQ():
     orangeQ = int(input("How many oranges do you want to buy?\n> "))
     orangeQ*=25
     return appleQ, orangeQ
+
+def total(computeAppleQ, computeOrangeQ):
+    totalAmount = computeAppleQ+computeOrangeQ
+    return print(f"The total amount is {totalAmount}.")
