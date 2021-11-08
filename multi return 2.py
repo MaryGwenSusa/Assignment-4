@@ -63,7 +63,6 @@ fruitPrices(numberOfApple, numberOfOrange)
 
 
 # another version
-# another version
 def welcome():
     print(f"Welcome to Apple and Orange Cart!")
 
