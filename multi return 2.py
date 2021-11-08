@@ -27,8 +27,8 @@ def computeFruitQ():
     return appleQ, orangeQ
 
 def fruitPrices(applePrice, orangePrice):
-    applePrice = applePrice*20
-    orangePrice = orangePrice*25
+    applePrice*=20
+    orangePrice*=25
     return applePrice, orangePrice
 
 def total(computeAppleQ, computeOrangeQ):
@@ -52,8 +52,8 @@ def computeFruitQ():
     return appleQ, orangeQ
 
 def fruitPrices(applePrice, orangePrice):
-    applePrice = applePrice*20
-    orangePrice = orangePrice*25
+    applePrice*=20
+    orangePrice*=25
     totalAmount = applePrice+orangePrice
     return applePrice, orangePrice, print (f'The total amount is {totalAmount}.')
 
