@@ -12,3 +12,7 @@ def computeFruitQ():
 def total(computeAppleQ, computeOrangeQ):
     totalAmount = computeAppleQ+computeOrangeQ
     return print(f"The total amount is {totalAmount}.")
+
+welcome()
+numberOfApple, numberOfOrange = computeFruitQ()
+total(numberOfApple, numberOfOrange)
