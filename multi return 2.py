@@ -60,19 +60,3 @@ def fruitPrices(applePrice, orangePrice):
 welcome()
 numberOfApple, numberOfOrange = computeFruitQ()
 fruitPrices(numberOfApple, numberOfOrange)
-
-
-# another version
-def welcome():
-    print(f"Welcome to Apple and Orange Cart!")
-
-def computeFruitQ():
-    appleQ = int(input("How many apples do you want to buy?\n> "))
-    orangeQ = int(input("How many oranges do you want to buy?\n> "))
-    appleQ*=20
-    orangeQ*=25
-    totalAmount = appleQ+orangeQ
-    return appleQ, orangeQ, print(f"The total amount is {totalAmount}.")
-
-welcome()
-computeFruitQ()
